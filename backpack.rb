@@ -1,6 +1,6 @@
 class Backpack
   def initialize(attributes)
-    @attributes = attributes # a hash containing day_of_week and weather keys
+    @attributes = attributes
     @items = []
     prepare
   end
@@ -37,7 +37,6 @@ class Backpack
 
   end
 
-  # Prints a summary packing list for Melinda's backpack
   def show_list
     output = []
     output << "Melinda, here's your packing list!"
