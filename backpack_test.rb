@@ -71,7 +71,7 @@ class BackpackTest < MiniTest::Test
   end
   def test_gym_shoes_saturday
     backpack = build(:backpack, day_of_week: 'saturday')
-    assert backpack.items.include?('gym shoes') == false 
+    assert backpack.items.include?('gym shoes') == false
   end
 
   ##### TESTS ABOUT PRINTING THE LIST #####
