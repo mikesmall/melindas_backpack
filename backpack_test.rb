@@ -85,7 +85,7 @@ Day: monday, Weather: sunny
 - shirt
 - gym shoes
 - packed lunch"
-    assert_equal(backpack.my_func, expected)
+    assert_equal(backpack.show_list, expected)
   end
 
 end
